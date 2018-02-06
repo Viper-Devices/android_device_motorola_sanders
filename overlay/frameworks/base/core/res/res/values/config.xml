@@ -361,10 +361,11 @@
     <!-- Whether notify fingerprint client of successful cancelled authentication-->
     <bool name="config_notifyClientOnFingerprintCancelSuccess">true</bool>
 
-    <!-- Should proximity check also affect fingerprint reader
-    <bool name="config_proximityCheckOnFingerprintWake">true</bool>-->
-    
-    <!--  Whether to show navbar in lock task mode -->
-    <!--<bool name="config_showNavbarInLockTaskMode">true</bool>-->
-    
+    <!-- Screen pinning exit mode
+        0 - Navigation bar (default behavior)
+        1 - Long press back button
+        2 - Long press power button
+    -->
+    <integer name="config_screenPinningExitMode">2</integer>
+
 </resources>
