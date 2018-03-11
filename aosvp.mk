@@ -19,7 +19,7 @@
 $(call inherit-product, device/motorola/sanders/full_sanders.mk)
 
 # Inherit some common AOSVP stuff.
-$(call inherit-product, vendor/aovsp/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosvp/config/common_full_phone.mk)
 
 # Boot animation
 TARGET_SCREEN_WIDTH := 1080
