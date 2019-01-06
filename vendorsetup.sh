@@ -14,6 +14,7 @@
 # limitations under the License.
 #
 
-add_lunch_combo lineage_sanders-eng
-add_lunch_combo lineage_sanders-userdebug 
-add_lunch_combo lineage_sanders-user
+add_lunch_combo viper_sanders-eng
+add_lunch_combo viper_sanders-userdebug 
+add_lunch_combo viper_sanders-user
+
